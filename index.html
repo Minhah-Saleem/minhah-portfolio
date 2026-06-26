@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minhah Saleem Archive™</title>
+  <meta name="description" content="A quirky fan-made portfolio archive for Minhah Saleem, AI engineer and researcher based in South Korea." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Minhah Saleem Archive home">
+      <span class="brand-mark">MS</span>
+      <span>Minhah Archive™</span>
+    </a>
+    <button class="menu-button" id="menuButton" aria-label="Open navigation">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#lore">Lore</a>
+      <a href="#career">Stats</a>
+      <a href="#achievements">Receipts</a>
+      <a href="#sidequests">Side Quests</a>
+      <a href="#patchnotes">Patch Notes</a>
+      <a href="#contact">Recruit Her</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span>🪩</span><span>Mode</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Unofficial fan page · lovingly over-documented</p>
+        <h1>MINHAH SALEEM ARCHIVE™</h1>
+        <p class="hero-subtitle">
+          The internet’s most unnecessarily detailed collection of one Pakistani AI engineer
+          currently causing quiet chaos in South Korea.
+        </p>
+        <div class="hero-sticker">
+          “She accidentally became an AI researcher after repeatedly refusing to quit.”
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="#lore">Enter the Lore</a>
+          <a class="btn secondary" href="assets/Minhah-Saleem-CV.pdf" download>Download CV</a>
+          <a class="btn ghost" href="https://github.com/Minhah-Saleem" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <aside class="profile-card" aria-label="Profile card">
+        <div class="status-pill">Current Arc: Industry + Life + More Skills</div>
+        <img src="assets/profile-photo.svg" alt="Profile placeholder for Minhah Saleem" class="profile-photo" />
+        <div class="profile-caption">
+          <h2>Minhah Saleem</h2>
+          <p>AI Developer · Researcher · Reader · Sketcher · Side-Quest Collector</p>
+        </div>
+        <div class="quick-stats">
+          <div><span>Base</span><strong>Seoul 🇰🇷</strong></div>
+          <div><span>Class</span><strong>AI Engineer</strong></div>
+          <div><span>Weakness</span><strong>Interesting Problems</strong></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section intro">
+      <div class="section-heading">
+        <p class="eyebrow">For new fans</p>
+        <h2>Who is Minhah?</h2>
+      </div>
+      <div class="intro-grid">
+        <article class="card big-card">
+          <h3>Professional summary, but make it lore</h3>
+          <p>
+            Minhah Saleem is a Pakistani AI engineer and researcher based in Seoul.
+            She works across machine learning, computer vision, medical AI, NLP, data analysis,
+            and real-world AI deployment.
+          </p>
+          <p>
+            Fan summary: she is the kind of person who gets knocked into a new life chapter and
+            somehow comes out with a publication, a patent, a project, three new skills, and a cup of chai.
+          </p>
+        </article>
+        <article class="card rating-card">
+          <h3>Fan Rating</h3>
+          <div class="stars">★★★★★</div>
+          <div class="meter-row"><span>Work ethic</span><div class="meter"><i style="width:100%"></i></div><b>102%</b></div>
+          <div class="meter-row"><span>Resilience</span><div class="meter"><i style="width:97%"></i></div><b>97%</b></div>
+          <div class="meter-row"><span>Sleep schedule</span><div class="meter"><i style="width:43%"></i></div><b>Classified</b></div>
+          <button class="mini-button" id="fanNoteButton">Generate Fan Note</button>
+          <p class="fan-note" id="fanNote">Not a main character by choice. Just by plot density.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section lore" id="lore">
+      <div class="section-heading">
+        <p class="eyebrow">The emotional backbone</p>
+        <h2>The Lore</h2>
+        <p>This is not a straight timeline. Straight timelines rarely survive real life.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="arc-icon">🌱</span>
+          <div class="timeline-content">
+            <h3>Origin Arc</h3>
+            <p>Born on 15 January 1999 in Pakistan. Youngest of three girls. Raised in a remote defense colony near Jauharabad, where the outside world felt far away, but friendships were very real.</p>
+            <p class="caption">Internet? Questionable. Friends? Elite. The lore started early.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="arc-icon">🎓</span>
+          <div class="timeline-content">
+            <h3>EME / NUST Arc</h3>
+            <p>After FSC, she joined EME, NUST. Her review was approximately: “I do not think I like this place.” She stayed anyway, studied engineering, and collected lifelong friends.</p>
+            <p class="caption">Did she love the campus experience? No. Did she find excellent people? Absolutely.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item quiet">
+          <span class="arc-icon">🕯</span>
+          <div class="timeline-content">
+            <h3>The Hard Arc</h3>
+            <p>During university, her mother battled cancer. Her family changed, grief arrived, and life kept moving even when it felt impossible.</p>
+            <p>This section is quiet on purpose. It is here because it explains the shape of her resilience, not because pain needs decoration.</p>
+            <p class="caption">Some people build ambition from comfort. Some build it while carrying grief carefully.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="arc-icon">🦠</span>
+          <div class="timeline-content">
+            <h3>COVID + PIEAS Arc</h3>
+            <p>Fourth year became the COVID year. Everyone went home. She started PIEAS, left after a few months, and never returned after the pandemic disruption.</p>
+            <p class="caption">Not every chapter ends with a certificate. Some chapters redirect the plot.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="arc-icon">💼</span>
+          <div class="timeline-content">
+            <h3>Lahore Episode</h3>
+            <p>First full-time job. Toxic workplace. Exit.</p>
+            <p class="caption">Character development includes knowing when to leave the building.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="arc-icon">🏠</span>
+          <div class="timeline-content">
+            <h3>Healing Arc</h3>
+            <p>Joined HealthHub. Worked from home. Healed a little. Started believing in herself again. Applied for graduate school. Rejected once. Applied again the next month. Accepted.</p>
+            <p class="caption">Rejection: temporary. Comeback: already loading.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="arc-icon">🇰🇷</span>
+          <div class="timeline-content">
+            <h3>Korea Arc</h3>
+            <p>Moved to South Korea for a Master’s in Artificial Intelligence at Dongguk University. Then came the research assistantship, publication, patent, industrial collaborations, volunteering, Korean classes, and a lot of “how did we get here?” energy.</p>
+            <p class="caption">Came for the Master’s. Stayed for the lore.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="arc-icon">❤️</span>
+          <div class="timeline-content">
+            <h3>Relationship DLC</h3>
+            <p>Met future husband on 11 January 2025. Engaged on 4 July 2025. Married on 17 February 2026. Co-op mode unlocked.</p>
+            <p class="caption">Two computer science people, one home, approximately 400 open tabs.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section stats" id="career">
+      <div class="section-heading">
+        <p class="eyebrow">Sports broadcast voice</p>
+        <h2>Career Stats</h2>
+      </div>
+      <div class="stats-grid">
+        <article class="stat-card"><span>Countries</span><strong>2</strong><p>Pakistan · South Korea</p></article>
+        <article class="stat-card"><span>Research Papers</span><strong>2</strong><p>One published, one under review</p></article>
+        <article class="stat-card"><span>Patent</span><strong>1</strong><p>Granted in South Korea</p></article>
+        <article class="stat-card"><span>Master’s GPA</span><strong>4.25</strong><p>out of 4.5</p></article>
+        <article class="stat-card"><span>Companies</span><strong>3</strong><p>HealthHub · INFINIQ · earlier job arc</p></article>
+        <article class="stat-card"><span>Industrial Collabs</span><strong>4+</strong><p>Cars, healthcare, imaging, deployment</p></article>
+      </div>
+    </section>
+
+    <section class="section achievements" id="achievements">
+      <div class="section-heading">
+        <p class="eyebrow">Museum voice, but unserious</p>
+        <h2>Achievement Cabinet</h2>
+      </div>
+      <div class="cabinet">
+        <article class="achievement-card">
+          <span class="badge">🏆 Exhibit A</span>
+          <h3>Published Paper</h3>
+          <p>Intent-aware data augmentation using generative AI for stress detection in social media texts.</p>
+          <em>The one where stress detection became slightly smarter.</em>
+        </article>
+        <article class="achievement-card">
+          <span class="badge">🏆 Exhibit B</span>
+          <h3>Korean Patent</h3>
+          <p>Scalp image stitching using follicle-based rotation-aware descriptors.</p>
+          <em>Local follicle. Global impact.</em>
+        </article>
+        <article class="achievement-card">
+          <span class="badge">🏆 Exhibit C</span>
+          <h3>HealthHub Era</h3>
+          <p>Medical imaging, NLP, EHR named-entity recognition, segmentation, de-identification, and industrial research.</p>
+          <em>Hospitals generated data. Minhah generated models.</em>
+        </article>
+        <article class="achievement-card">
+          <span class="badge">🏆 Exhibit D</span>
+          <h3>INFINIQ Era</h3>
+          <p>Crowd density estimation, construction safety AI, ROI remapping, human-on-truck detection, and voice de-identification.</p>
+          <em>From research brain to real-world builder.</em>
+        </article>
+      </div>
+    </section>
+
+    <section class="section sidequests" id="sidequests">
+      <div class="section-heading">
+        <p class="eyebrow">Optional quests that became canon</p>
+        <h2>Side Quests</h2>
+      </div>
+      <div class="quest-board">
+        <article class="quest-card"><h3>📚 Reading</h3><p>Status: perpetually active. Books appear. Time disappears.</p></article>
+        <article class="quest-card"><h3>✏️ Sketching</h3><p>Evidence suggests notebooks are never empty for long.</p></article>
+        <article class="quest-card"><h3>🧶 Crafts</h3><p>Probability of making gifts by hand: extremely high.</p></article>
+        <article class="quest-card"><h3>🫶 Volunteering</h3><p>Cancer hospital support, senior welfare center conversation sessions, and student fundraising.</p></article>
+        <article class="quest-card"><h3>🧠 Learning Skills</h3><p>Nobody knows why. Neither does she. Still happening.</p></article>
+        <article class="quest-card"><h3>☕ Chai</h3><p>Not confirmed as a dependency, but the evidence is compelling.</p></article>
+      </div>
+    </section>
+
+    <section class="section npc">
+      <div class="section-heading">
+        <p class="eyebrow">Definitely fake, emotionally accurate</p>
+        <h2>NPC Reviews</h2>
+      </div>
+      <div class="reviews">
+        <article class="review-card"><h3>Former Professor</h3><p>“She asks questions that arrive with follow-up questions already attached.”</p><span>★★★★★</span></article>
+        <article class="review-card"><h3>GitHub</h3><p>“Activity patterns suggest a human, but we cannot rule out caffeine.”</p><span>★★★★☆</span></article>
+        <article class="review-card"><h3>Her Husband</h3><p>“I asked how work was. I was not prepared for the full project architecture.”</p><span>★★★★★</span></article>
+      </div>
+    </section>
+
+    <section class="section patchnotes" id="patchnotes">
+      <div class="section-heading">
+        <p class="eyebrow">Software release energy</p>
+        <h2>Patch Notes</h2>
+      </div>
+      <div class="patch-terminal">
+        <div class="terminal-bar"><span></span><span></span><span></span><p>minhah-updates.log</p></div>
+        <pre>
+Minhah v1.0
++ Born
++ Youngest daughter energy
++ Remote colony starter map
+
+Minhah v18.0
++ Engineering track unlocked
++ EME / NUST friends acquired
+! Campus satisfaction: unstable
+
+Minhah v21.0
++ AI obsession added
++ HealthHub work-from-home arc
++ Healing mode enabled
+
+Minhah v24.0
++ South Korea unlocked
++ Dongguk University ML Lab
++ Research Assistant mode
++ GPA upgrade: 4.25/4.5
+
+Minhah v25.0
++ Published paper
++ Patent unlocked
++ More volunteering
+! Cannot stop collecting side quests
+
+Current Version
++ INFINIQ projects
++ Relationship co-op mode
++ More skills loading...
+
+Known Issues
+! Impostor syndrome still under investigation
+! Cannot say no to interesting projects
+! Browser tabs reproduce under unknown conditions
+        </pre>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="section-heading">
+        <p class="eyebrow">Questions nobody asked but should have</p>
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>Is this website officially written by Minhah?</summary><p>Technically yes. Emotionally no. The narrator is a fan. Please respect the bit.</p></details>
+        <details><summary>Is she an AI researcher or AI developer?</summary><p>Yes.</p></details>
+        <details><summary>Why is it written like a fandom wiki?</summary><p>Because normal portfolios are where personality goes to stand in line.</p></details>
+        <details><summary>Can I contact her for work or collaboration?</summary><p>Yes. Please bring an interesting problem. She is weak against those.</p></details>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card">
+        <p class="eyebrow">Final boss room</p>
+        <h2>Recruit the Main Character</h2>
+        <p>
+          Looking for collaborators, research problems, AI projects, or someone who can move between
+          research and deployment? You may be looking for Minhah Saleem.
+        </p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:minhahsaleem1@gmail.com">Email Her</a>
+          <a class="btn secondary" href="assets/Minhah-Saleem-CV.pdf" download>Download CV</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/minhah-saleem/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn ghost" href="https://github.com/Minhah-Saleem" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+        <p class="closing-line">This archive remains under active development. So does Minhah.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Minhah Saleem Archive™ · Built like a fan page, working like a portfolio.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

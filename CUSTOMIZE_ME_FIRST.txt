@@ -1,0 +1,25 @@
+MINHAH PORTFOLIO CUSTOMIZATION CHEAT SHEET
+
+1. Add profile picture:
+   Replace assets/profile-photo.svg with your own image or update index.html to use profile-photo.jpg.
+
+2. Download CV button:
+   It uses assets/Minhah-Saleem-CV.pdf
+
+3. Change email:
+   Search in index.html for minhahsaleem1@gmail.com
+
+4. Change GitHub:
+   Search in index.html for github.com/Minhah-Saleem
+
+5. Change LinkedIn:
+   Search in index.html for linkedin.com/in/minhah-saleem
+
+6. Relationship date:
+   Search in index.html for 17 February 2026 and edit if needed.
+
+7. Add a new project:
+   Search for Achievement Cabinet and copy one achievement-card block.
+
+8. Public safety:
+   Consider removing your phone number from your public CV before uploading the website online.
